@@ -1,0 +1,71 @@
+{
+	"matchid": "TESFED3",
+	"num_maps": 3,
+	"players_per_team": 5,
+	"coaches_per_team": 0,
+	"min_players_to_ready": 5,
+	"min_spectators_to_ready": 1,
+	"skip_veto": true,
+	"veto_first": "team1",
+	"side_type": "standard",
+
+	"spectators": {
+		"players":
+		[
+			"STEAM_1:1:53550530",
+			"STEAM_0:1:80100247"
+		]
+	},
+
+	"maplist":
+	[
+		"de_dust2",
+		"de_inferno",
+		"de_mirage"
+	],
+	
+	"map_sides":
+	[
+		"knife",
+		"knife",
+		"team1_ct"
+	],
+
+	"team1": {
+		"name": "Youngtalents",
+		"tag": "YT",
+		"flag": "",
+		"logo": "",
+		"players":
+		{
+			"STEAM_0:0:175623983" : "AY7UNC",
+			"STEAM_0:1:129876689" : "Batuonfire",
+			"STEAM_0:1:116138494" : "hey666",
+			"STEAM_0:1:160833745" : "Depact",
+			"STEAM_0:0:516786689" : "delifisek"
+		}
+	},
+
+	"team2": {
+		"name": "Werschieden",
+		"tag": "WER",
+		"flag": "",
+		"logo": "",
+		"players":
+		{
+			"STEAM_0:0:540147292" : "RENNOW",
+			"STEAM_0:1:106476511" : "zeK",
+			"STEAM_0:1:116138494" : "kN",
+			"STEAM_0:1:160833745" : "duggy",
+			"STEAM_0:0:516786689" : "FOX3N"
+		}
+	},
+
+	"cvars": {
+		"hostname": "TESFED Maç Sunucusu - BO3",
+		"sm_practicemode_can_be_started": "0",
+    	"get5_end_match_on_empty_server": "0",
+    	"get5_stop_command_enabled": "0",
+		"tv_delay": "0"
+	}
+}
